@@ -17,4 +17,5 @@ app.get('/', function(req, res) {
   res.sendStatus(200);
 });
 
-app.listen(3000);
+app.listen(config.get('port'));
+console.log("Listening on port " + config.get('port'));

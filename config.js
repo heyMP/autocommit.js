@@ -5,6 +5,11 @@ var config = convict({
     doc: 'The Location of the git repo',
     default: './',
     env: 'AUTOCOMMIT_REPO'
+  },
+  port: {
+    doc: 'The port the application will listen on.',
+    default: '3000',
+    env: 'AUTOCOMMIT_PORT'
   }
 });
 
