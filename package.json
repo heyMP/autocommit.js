@@ -1,0 +1,17 @@
+{
+  "name": "autocommit.js",
+  "version": "0.1",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "convict": "^1.4.0",
+    "express": "^4.14.0",
+    "simple-git": "^1.50.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mgp140@gmail.com",
+  "license": "ISC"
+}
